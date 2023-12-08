@@ -208,4 +208,8 @@ footer span{
         border-radius: 0;
         justify-content: center;
     }
+
+    footer{
+        margin-top: 10px;
+    }
 }
