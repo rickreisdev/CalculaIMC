@@ -67,3 +67,9 @@ form.addEventListener('submit', function (event) {
     value.textContent = imc.replace('.', ',')
     document.getElementById('description').textContent = description
 })
+
+function showCurrentYear() {
+    let year = new Date().getFullYear()
+    document.getElementById('year').innerHTML = year
+}
+showCurrentYear()

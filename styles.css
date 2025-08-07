@@ -160,15 +160,9 @@ body{
 
 footer{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
-}
-
-footer h3{
-    font-size: 14.5px;
-    text-align: center;
     color: white;
 }
 
@@ -176,6 +170,15 @@ footer span{
     color: #12C305;
     font-weight: bold;
     font-size: 15px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a img {
+  width: auto;
+  height: 40px;
 }
 
 .hidden{
